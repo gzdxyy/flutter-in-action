@@ -99,7 +99,7 @@ class FlexLayoutTestRoute extends StatelessWidget {
 示例中的Spacer的功能是占用指定比例的空间，实际上它只是Expanded的一个包装：
 
 ```dart
-new Expanded(
+new Spacer(
   flex: flex,
   child: const SizedBox(
     height: 0.0,
